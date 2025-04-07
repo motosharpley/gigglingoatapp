@@ -1,0 +1,7 @@
+{
+  "name": "gigglingoatapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
