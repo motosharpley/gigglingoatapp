@@ -7,24 +7,14 @@ import {
   IonListHeader,
   IonMenu,
   IonMenuToggle,
-  IonNote,
 } from '@ionic/react';
 
 import { useLocation } from 'react-router-dom';
 import {
-  archiveOutline,
-  archiveSharp,
-  bookmarkOutline,
   heartOutline,
   heartSharp,
-  mailOutline,
-  mailSharp,
-  paperPlaneOutline,
-  paperPlaneSharp,
   trashOutline,
   trashSharp,
-  warningOutline,
-  warningSharp,
   createOutline,
   createSharp,
   homeOutline,
@@ -80,6 +70,14 @@ const Menu: React.FC = () => {
       <IonContent>
         <IonList id="inbox-list">
           <IonListHeader>GiGL Says Hi!</IonListHeader>
+          <div
+            style={{
+              marginBottom: '1rem',
+              marginTop: '1rem',
+            }}
+          >
+            <appkit-button></appkit-button>
+          </div>
           {appPages.map((appPage, index) => {
             return (
               <IonMenuToggle key={index} autoHide={false}>
