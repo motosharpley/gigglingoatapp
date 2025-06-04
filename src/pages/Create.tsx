@@ -8,9 +8,31 @@ import {
   IonContent,
   IonCard,
 } from '@ionic/react';
-import React from 'react';
+import React, { useState } from 'react';
 
 const Create: React.FC = () => {
+  const [form, setForm] = useState({
+    name: '',
+    symbol: '',
+    mint: '',
+    description: '',
+    image: '',
+    supply: '',
+  });
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setForm((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Handle form submission logic here
+    console.log('Form submitted:', form);
+  };
+
   return (
     <IonPage>
       <IonHeader>
@@ -23,7 +45,7 @@ const Create: React.FC = () => {
       </IonHeader>
       <IonContent color={'warning'}>
         <IonCard>
-          <form style={{ padding: 16 }}>
+          <form style={{ padding: 16 }} onSubmit={handleSubmit}>
             <h2>Create Token</h2>
             <div style={{ marginBottom: 12 }}>
               <label htmlFor="name">Name</label>
@@ -33,6 +55,8 @@ const Create: React.FC = () => {
                 type="text"
                 required
                 style={{ width: '100%' }}
+                value={form.name}
+                onChange={handleChange}
               />
             </div>
             <div style={{ marginBottom: 12 }}>
@@ -43,6 +67,8 @@ const Create: React.FC = () => {
                 type="text"
                 required
                 style={{ width: '100%' }}
+                value={form.symbol}
+                onChange={handleChange}
               />
             </div>
             <div style={{ marginBottom: 12 }}>
@@ -53,6 +79,8 @@ const Create: React.FC = () => {
                 type="text"
                 required
                 style={{ width: '100%' }}
+                value={form.mint}
+                onChange={handleChange}
               />
             </div>
             <div style={{ marginBottom: 12 }}>
@@ -62,6 +90,8 @@ const Create: React.FC = () => {
                 name="description"
                 rows={3}
                 style={{ width: '100%' }}
+                value={form.description}
+                onChange={handleChange}
               />
             </div>
             <div style={{ marginBottom: 12 }}>
@@ -71,6 +101,8 @@ const Create: React.FC = () => {
                 name="image"
                 type="url"
                 style={{ width: '100%' }}
+                value={form.image}
+                onChange={handleChange}
               />
             </div>
             <div style={{ marginBottom: 12 }}>
@@ -82,6 +114,8 @@ const Create: React.FC = () => {
                 min="0"
                 required
                 style={{ width: '100%' }}
+                value={form.supply}
+                onChange={handleChange}
               />
             </div>
             <button
