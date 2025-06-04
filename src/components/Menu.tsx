@@ -44,7 +44,7 @@ const appPages: AppPage[] = [
   },
   {
     title: 'Create',
-    url: '/folder/create',
+    url: '/create',
     iosIcon: createOutline,
     mdIcon: createSharp,
   },
