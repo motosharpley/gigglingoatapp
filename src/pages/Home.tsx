@@ -27,12 +27,12 @@ const Home: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Gigglin Goat</IonTitle>
+          <IonTitle>GigglinGOAT</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent color={'warning'}>
         <section id="hero">
-          <h1>Join the Gigglin Goat Revolution!</h1>
+          <h1>Join the GigglinGOAT Revolution!</h1>
           <p>
             Create the next greatest meme or get some GiGL and vote for your
             favorites.
