@@ -1,8 +1,5 @@
 import {
   IonPage,
-  IonHeader,
-  IonToolbar,
-  IonTitle,
   IonContent,
   IonAvatar,
   IonCard,
@@ -115,56 +112,43 @@ const FeedTab: React.FC = () => (
 
 const Profile: React.FC = () => {
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>User Profile</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent>
-        <IonTabs>
-          <IonRouterOutlet>
-            <Route
-              path="/profile/creations"
-              component={CreationsTab}
-              exact={true}
-            />
-            <Route
-              path="/profile/favorites"
-              component={FavoritesTab}
-              exact={true}
-            />
-            <Route path="/profile/feed" component={FeedTab} exact={true} />
-            <Route
-              path="/profile/profile"
-              component={ProfileTab}
-              exact={true}
-            />
-            <Route exact path="/profile">
-              <Redirect to="/profile/profile" />
-            </Route>
-          </IonRouterOutlet>
-          <IonTabBar slot="bottom">
-            <IonTabButton tab="profile" href="/profile/profile">
-              <IonIcon icon={personCircleOutline} />
-              <IonLabel>Profile</IonLabel>
-            </IonTabButton>
-            <IonTabButton tab="creations" href="/profile/creations">
-              <IonIcon icon={imageOutline} />
-              <IonLabel>Creations</IonLabel>
-            </IonTabButton>
-            <IonTabButton tab="favorites" href="/profile/favorites">
-              <IonIcon icon={heartOutline} />
-              <IonLabel>Favorites</IonLabel>
-            </IonTabButton>
-            <IonTabButton tab="feed" href="/profile/feed">
-              <IonIcon icon={newspaperOutline} />
-              <IonLabel>Feed</IonLabel>
-            </IonTabButton>
-          </IonTabBar>
-        </IonTabs>
-      </IonContent>
-    </IonPage>
+    <IonTabs>
+      <IonRouterOutlet>
+        <Route
+          path="/profile/creations"
+          component={CreationsTab}
+          exact={true}
+        />
+        <Route
+          path="/profile/favorites"
+          component={FavoritesTab}
+          exact={true}
+        />
+        <Route path="/profile/feed" component={FeedTab} exact={true} />
+        <Route path="/profile/profile" component={ProfileTab} exact={true} />
+        <Route exact path="/profile">
+          <Redirect to="/profile/profile" />
+        </Route>
+      </IonRouterOutlet>
+      <IonTabBar slot="bottom">
+        <IonTabButton tab="profile" href="/profile/profile">
+          <IonIcon icon={personCircleOutline} />
+          <IonLabel>Profile</IonLabel>
+        </IonTabButton>
+        <IonTabButton tab="creations" href="/profile/creations">
+          <IonIcon icon={imageOutline} />
+          <IonLabel>Creations</IonLabel>
+        </IonTabButton>
+        <IonTabButton tab="favorites" href="/profile/favorites">
+          <IonIcon icon={heartOutline} />
+          <IonLabel>Favorites</IonLabel>
+        </IonTabButton>
+        <IonTabButton tab="feed" href="/profile/feed">
+          <IonIcon icon={newspaperOutline} />
+          <IonLabel>Feed</IonLabel>
+        </IonTabButton>
+      </IonTabBar>
+    </IonTabs>
   );
 };
 
