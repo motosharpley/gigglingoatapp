@@ -11,14 +11,14 @@ import {
 
 import { useLocation } from 'react-router-dom';
 import {
-  heartOutline,
-  heartSharp,
   trashOutline,
   trashSharp,
   createOutline,
   createSharp,
   homeOutline,
   homeSharp,
+  personCircleOutline,
+  personCircleSharp,
 } from 'ionicons/icons';
 import './Menu.css';
 
@@ -49,16 +49,16 @@ const appPages: AppPage[] = [
     mdIcon: createSharp,
   },
   {
-    title: 'Favorites',
-    url: '/folder/favorites',
-    iosIcon: heartOutline,
-    mdIcon: heartSharp,
-  },
-  {
     title: 'Trash',
     url: '/folder/trash',
     iosIcon: trashOutline,
     mdIcon: trashSharp,
+  },
+  {
+    title: 'Profile',
+    url: '/profile',
+    iosIcon: personCircleOutline,
+    mdIcon: personCircleSharp,
   },
 ];
 

@@ -11,6 +11,7 @@ import Page from './pages/Page';
 import Home from './pages/Home';
 import Home2 from './pages/Home2';
 import Create from './pages/Create';
+import Profile from './pages/Profile';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -62,6 +63,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/create" exact={true}>
               <Create />
+            </Route>
+            <Route path="/profile">
+              <Profile />
             </Route>
             <Route path="/folder/:name" exact={true}>
               <Page />
