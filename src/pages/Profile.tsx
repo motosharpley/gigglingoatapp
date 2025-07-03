@@ -135,7 +135,11 @@ const Profile: React.FC = () => {
               exact={true}
             />
             <Route path="/profile/feed" component={FeedTab} exact={true} />
-            <Route path="/profile/profile" component={ProfileTab} exact={true} />
+            <Route
+              path="/profile/profile"
+              component={ProfileTab}
+              exact={true}
+            />
             <Route exact path="/profile">
               <Redirect to="/profile/profile" />
             </Route>
