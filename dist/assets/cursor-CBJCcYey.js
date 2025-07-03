@@ -1,4 +1,0 @@
-import{X as o}from"./index-C4QAg8YX.js";const l=o` <svg fill="none" viewBox="0 0 13 4">
-  <path fill="currentColor" d="M.5 0h12L8.9 3.13a3.76 3.76 0 0 1-4.8 0L.5 0Z" />
-</svg>`;export{l as cursorSvg};
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3Vyc29yLUNCSkNjWWV5LmpzIiwic291cmNlcyI6WyIuLi8uLi9ub2RlX21vZHVsZXMvQHJlb3duL2FwcGtpdC11aS9kaXN0L2VzbS9zcmMvYXNzZXRzL3N2Zy9jdXJzb3IuanMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgc3ZnIH0gZnJvbSAnbGl0JztcbmV4cG9ydCBjb25zdCBjdXJzb3JTdmcgPSBzdmcgYCA8c3ZnIGZpbGw9XCJub25lXCIgdmlld0JveD1cIjAgMCAxMyA0XCI+XG4gIDxwYXRoIGZpbGw9XCJjdXJyZW50Q29sb3JcIiBkPVwiTS41IDBoMTJMOC45IDMuMTNhMy43NiAzLjc2IDAgMCAxLTQuOCAwTC41IDBaXCIgLz5cbjwvc3ZnPmA7XG4vLyMgc291cmNlTWFwcGluZ1VSTD1jdXJzb3IuanMubWFwIl0sIm5hbWVzIjpbImN1cnNvclN2ZyIsInN2ZyJdLCJtYXBwaW5ncyI6IndDQUNZLE1BQUNBLEVBQVlDO0FBQUFBOyIsInhfZ29vZ2xlX2lnbm9yZUxpc3QiOlswXX0=

@@ -1,0 +1,9 @@
+import{X as l}from"./index-lhkfOjOH.js";const o=l`<svg fill="none" viewBox="0 0 16 16">
+  <path
+    fill="currentColor"
+    fill-rule="evenodd"
+    d="M2.54 2.54a1 1 0 0 1 1.42 0L8 6.6l4.04-4.05a1 1 0 1 1 1.42 1.42L9.4 8l4.05 4.04a1 1 0 0 1-1.42 1.42L8 9.4l-4.04 4.05a1 1 0 0 1-1.42-1.42L6.6 8 2.54 3.96a1 1 0 0 1 0-1.42Z"
+    clip-rule="evenodd"
+  />
+</svg>`;export{o as closeSvg};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2xvc2UtUDE4QnIzcHcuanMiLCJzb3VyY2VzIjpbIi4uLy4uL25vZGVfbW9kdWxlcy9AcmVvd24vYXBwa2l0LXVpL2Rpc3QvZXNtL3NyYy9hc3NldHMvc3ZnL2Nsb3NlLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHN2ZyB9IGZyb20gJ2xpdCc7XG5leHBvcnQgY29uc3QgY2xvc2VTdmcgPSBzdmcgYDxzdmcgZmlsbD1cIm5vbmVcIiB2aWV3Qm94PVwiMCAwIDE2IDE2XCI+XG4gIDxwYXRoXG4gICAgZmlsbD1cImN1cnJlbnRDb2xvclwiXG4gICAgZmlsbC1ydWxlPVwiZXZlbm9kZFwiXG4gICAgZD1cIk0yLjU0IDIuNTRhMSAxIDAgMCAxIDEuNDIgMEw4IDYuNmw0LjA0LTQuMDVhMSAxIDAgMSAxIDEuNDIgMS40Mkw5LjQgOGw0LjA1IDQuMDRhMSAxIDAgMCAxLTEuNDIgMS40Mkw4IDkuNGwtNC4wNCA0LjA1YTEgMSAwIDAgMS0xLjQyLTEuNDJMNi42IDggMi41NCAzLjk2YTEgMSAwIDAgMSAwLTEuNDJaXCJcbiAgICBjbGlwLXJ1bGU9XCJldmVub2RkXCJcbiAgLz5cbjwvc3ZnPmA7XG4vLyMgc291cmNlTWFwcGluZ1VSTD1jbG9zZS5qcy5tYXAiXSwibmFtZXMiOlsiY2xvc2VTdmciLCJzdmciXSwibWFwcGluZ3MiOiJ3Q0FDWSxNQUFDQSxFQUFXQztBQUFBQTtBQUFBQTtBQUFBQTtBQUFBQTtBQUFBQTtBQUFBQTsiLCJ4X2dvb2dsZV9pZ25vcmVMaXN0IjpbMF19

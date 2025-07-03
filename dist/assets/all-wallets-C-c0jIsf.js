@@ -1,7 +1,0 @@
-import{X as a}from"./index-C4QAg8YX.js";const o=a`<svg fill="none" viewBox="0 0 24 24">
-  <path
-    style="fill: var(--wui-color-accent-100);"
-    d="M10.2 6.6a3.6 3.6 0 1 1-7.2 0 3.6 3.6 0 0 1 7.2 0ZM21 6.6a3.6 3.6 0 1 1-7.2 0 3.6 3.6 0 0 1 7.2 0ZM10.2 17.4a3.6 3.6 0 1 1-7.2 0 3.6 3.6 0 0 1 7.2 0ZM21 17.4a3.6 3.6 0 1 1-7.2 0 3.6 3.6 0 0 1 7.2 0Z"
-  />
-</svg>`;export{o as allWalletsSvg};
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWxsLXdhbGxldHMtQy1jMGpJc2YuanMiLCJzb3VyY2VzIjpbIi4uLy4uL25vZGVfbW9kdWxlcy9AcmVvd24vYXBwa2l0LXVpL2Rpc3QvZXNtL3NyYy9hc3NldHMvc3ZnL2FsbC13YWxsZXRzLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHN2ZyB9IGZyb20gJ2xpdCc7XG5leHBvcnQgY29uc3QgYWxsV2FsbGV0c1N2ZyA9IHN2ZyBgPHN2ZyBmaWxsPVwibm9uZVwiIHZpZXdCb3g9XCIwIDAgMjQgMjRcIj5cbiAgPHBhdGhcbiAgICBzdHlsZT1cImZpbGw6IHZhcigtLXd1aS1jb2xvci1hY2NlbnQtMTAwKTtcIlxuICAgIGQ9XCJNMTAuMiA2LjZhMy42IDMuNiAwIDEgMS03LjIgMCAzLjYgMy42IDAgMCAxIDcuMiAwWk0yMSA2LjZhMy42IDMuNiAwIDEgMS03LjIgMCAzLjYgMy42IDAgMCAxIDcuMiAwWk0xMC4yIDE3LjRhMy42IDMuNiAwIDEgMS03LjIgMCAzLjYgMy42IDAgMCAxIDcuMiAwWk0yMSAxNy40YTMuNiAzLjYgMCAxIDEtNy4yIDAgMy42IDMuNiAwIDAgMSA3LjIgMFpcIlxuICAvPlxuPC9zdmc+YDtcbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWFsbC13YWxsZXRzLmpzLm1hcCJdLCJuYW1lcyI6WyJhbGxXYWxsZXRzU3ZnIiwic3ZnIl0sIm1hcHBpbmdzIjoid0NBQ1ksTUFBQ0EsRUFBZ0JDO0FBQUFBO0FBQUFBO0FBQUFBO0FBQUFBOyIsInhfZ29vZ2xlX2lnbm9yZUxpc3QiOlswXX0=
