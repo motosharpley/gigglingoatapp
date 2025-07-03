@@ -101,7 +101,7 @@ const Home: React.FC = () => {
             <h2>Meme Contest</h2>
             <p>
               Post your best material or vote for your favorite meme. who will
-              get the most gigl’s and claim The illustrious Meme GOAT Title and
+              get the most GiGL’s and claim The illustrious Meme GOAT Title and
               Prizes
             </p>
             <IonImg src={giglCheese} alt="GIGL the GigglinGOAT" />
